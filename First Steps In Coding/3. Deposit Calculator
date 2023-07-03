@@ -1,0 +1,13 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+        double deposid = double.Parse(Console.ReadLine());
+        int mouth = int.Parse(Console.ReadLine());
+        double procent = double.Parse(Console.ReadLine());
+
+        Console.WriteLine(deposid + mouth * ((deposid * procent) / 12));
+    }
+}
