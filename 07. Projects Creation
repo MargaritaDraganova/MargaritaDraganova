@@ -1,0 +1,13 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+        string nameArchitect = Console.ReadLine();
+        
+        int projects = int.Parse(Console.ReadLine());
+       
+        Console.WriteLine($"The architect {nameArchitect} will need {projects * 3} hours to complete {projects} project/s.");
+    }
+}
