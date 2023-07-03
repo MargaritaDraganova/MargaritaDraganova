@@ -1,1 +1,25 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+
+        double packOfPens = double.Parse(Console.ReadLine());
+        double numberOfMarkers = double.Parse(Console.ReadLine());
+        double litersDetergent = double.Parse(Console.ReadLine());
+        double discount = double.Parse(Console.ReadLine());
+
+        double priceOfThePens = packOfPens * 5.80;
+        double priceOfMarkers = numberOfMarkers * 7.20;
+        double priceOfDetergent = litersDetergent * 1.20;
+        double priceOfAllMaterials = priceOfThePens + priceOfMarkers + priceOfDetergent;
+        double discountPercentage = discount / 100;
+
+        double priceWithDiscount = priceOfAllMaterials - (priceOfAllMaterials * discountPercentage);
+        Console.WriteLine(priceWithDiscount);
+
+
+    }
+}
 
