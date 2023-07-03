@@ -1,0 +1,11 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+        double inch = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine(inch* 2.54);
+    }
+}
