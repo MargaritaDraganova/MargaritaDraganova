@@ -1,0 +1,13 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+
+        double yardGreening = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine($"The final price is: {yardGreening* 7.61- 0.18 * yardGreening * 7.61} lv.");
+        Console.WriteLine($"The discount is: {0.18* yardGreening * 7.61} lv.");
+    }
+}
