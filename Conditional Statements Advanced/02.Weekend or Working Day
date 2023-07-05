@@ -1,1 +1,18 @@
+using System;
 
+class HelloCsharp
+{
+    static void Main()
+    {
+        var dayNumber = (Console.ReadLine());
+        if(dayNumber == "Monday" || dayNumber== "Tuesday"||dayNumber== "Wednesday"||dayNumber== "Thursday"||dayNumber== "Friday")
+        {
+            Console.WriteLine("Working day");
+        }
+        else if(dayNumber== "Saturday"||dayNumber== "Sunday")
+        {
+            Console.WriteLine("Weekend");
+        }
+        else { Console.WriteLine("Error"); }
+    }
+}
