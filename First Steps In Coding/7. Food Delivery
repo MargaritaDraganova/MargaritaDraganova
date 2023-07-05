@@ -1,1 +1,21 @@
+using System;
+
+class HelloCsharp
+{
+    static void Main()
+    {
+
+        int chickenMenu = int.Parse(Console.ReadLine());
+        int fishMenu = int.Parse(Console.ReadLine());
+        int vegetarianMenu = int.Parse(Console.ReadLine());
+    
+
+        double sumMenu = chickenMenu*10.35+fishMenu*12.40+vegetarianMenu*8.15;
+        double dessertPrice = sumMenu*0.20;
+        Console.WriteLine(sumMenu + dessertPrice+2.50);
+
+
+
+    }
+}
 
